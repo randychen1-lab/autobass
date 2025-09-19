@@ -7,4 +7,5 @@ elif [[ $1 == "" || $2 == "" ]]; then echo "Not a command";
 elif [[ ! -d $1 && ! -d $2 ]]; then echo "$1 and $2 aren't existing directories";
 elif [ ! -d $1 ]; then echo "$1 isn't an existing directory";
 elif [ ! -d $2 ]; then echo "$2 isn't an existing directory";
-
+else backup="$2/backup_$(date +%y%m%d)_$(date +%H%M%S)"; mkdir -p $backup;
+fi
