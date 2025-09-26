@@ -1,5 +1,4 @@
 #!/bin/bash
-
 source ./archive.conf
 
 logInfo() { local message="INFO: [$(date '+%y-%m-%d %H:%M:%S')] $1"; echo "$message"; echo "$message" >> "archive.log"; }
