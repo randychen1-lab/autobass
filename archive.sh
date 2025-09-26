@@ -6,7 +6,8 @@ logInfo() { local message="INFO: [$(date '+%y-%m-%d %H:%M:%S')] $1"; echo "$mess
 
 logError() { local message="ERROR: [$(date '+%y-%m-%d %H:%M:%S')] $1";   echo "$message"; echo "$message" >> "archive.log"; }
 
-helper() { echo "archive.sh functions:" ; echo "Accepts two command-line arguments: $0 [Source_Directory] [Target_Directory]"; echo "Creates a new folder in Target_Directory with timestamps"; echo "Copies all files from [Source_Directory] to [Target_Directory]"; >
+helper() { echo "archive.sh functions:" ; echo "Accepts two command-line arguments: $0 [Source_Directory] [Target_Directory]"; echo "Creates a new folder in Target_Directory with timestamps"; echo "Copies all files from [Source_Directory] to [Target_Directory]"; echo "Input --help or -h for help"; }
+
 if [[ $1 == "-h" || $1 == "--help" ]]; then helper; exit 1; fi
 
 if [[ -n "$1" ]]; then sourceDir="$1"; fi
@@ -23,3 +24,5 @@ else backup="$targetDir/backup_$(date +%y%m%d)_$(date +%H%M%S).tar.gz"; tar -czf
     else
         logError "Backup failed during compression."
         exit 1
+    fi
+fi

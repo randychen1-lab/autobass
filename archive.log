@@ -1,0 +1,9 @@
+INFO: [25-09-26 13:54:44] Archive scipt started.
+INFO: [25-09-26 13:55:28] Archive scipt started.
+INFO: [25-09-26 13:56:02] Archive scipt started.
+ERROR: [25-09-26 13:56:02] Source directory (test_1) does not exist or is not readable. Exiting.
+INFO: [25-09-26 13:56:31] Archive scipt started.
+ERROR: [25-09-26 13:56:31] Source directory (test_1) does not exist or is not readable. Exiting.
+INFO: [25-09-26 13:57:11] Archive scipt started.
+INFO: [25-09-26 13:57:11] Backing up from test_1 to test_2/backup_250926_135711.tar.gz.
+INFO: [25-09-26 13:57:11] Backup completed successfully.
