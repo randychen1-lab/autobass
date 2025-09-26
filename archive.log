@@ -1,0 +1,11 @@
+INFO: [25-09-26 17:49:56] Archive script started.
+INFO: [25-09-26 17:49:56] Backing up from test_1 to test_2/backup_250926_174956.tar.gz.
+INFO: [25-09-26 17:49:56] Backup completed successfully.
+INFO: [25-09-26 17:49:59] Archive script started.
+INFO: [25-09-26 17:49:59] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 17:50:06] Archive script started.
+INFO: [25-09-26 17:50:06] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 17:50:20] Archive script started.
+ERROR: [25-09-26 17:50:20] Source directory (a) does not exist or is not readable. Exiting.
+INFO: [25-09-26 17:50:37] Archive script started.
+ERROR: [25-09-26 17:50:37] Target directory (a) does not exist or could not be created. Exiting.
