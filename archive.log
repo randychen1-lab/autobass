@@ -8,3 +8,36 @@ INFO: [25-09-25 23:35:13] Archive scipt started.
 ERROR: [25-09-25 23:35:13] Target directory (a) does not exist or could not be created. Exiting.
 INFO: [25-09-25 23:36:40] Archive scipt started.
 ERROR: [25-09-25 23:36:40] Source directory (a) and target directory (b) aren't existing directories
+INFO: [25-09-26 13:06:30] Archive scipt started.
+ERROR: [25-09-26 13:06:30] Source directory (Test_1) and target directory (Test_2) aren't existing directories.
+INFO: [25-09-26 13:07:20] Archive scipt started.
+ERROR: [25-09-26 13:07:20] Source directory (Test_1) and target directory (Test_2) aren't existing directories.
+INFO: [25-09-26 13:08:38] Archive scipt started.
+ERROR: [25-09-26 13:08:38] Source directory (-h) and target directory (Test_2) aren't existing directories.
+INFO: [25-09-26 13:11:33] Archive scipt started.
+INFO: [25-09-26 13:11:33] Backing up from test_1 to test_2/backup_250926_131133.tar.gz.
+INFO: [25-09-26 13:11:33] Backup completed successfully.
+INFO: [25-09-26 13:11:54] Archive scipt started.
+ERROR: [25-09-26 13:11:54] Source directory (a) and target directory (b) aren't existing directories.
+INFO: [25-09-26 13:14:40] Archive scipt started.
+ERROR: [25-09-26 13:14:40] Source directory (a) does not exist or is not readable. Exiting.
+INFO: [25-09-26 13:14:55] Archive scipt started.
+ERROR: [25-09-26 13:14:55] Target directory (b) does not exist or could not be created. Exiting.
+INFO: [25-09-26 13:15:01] Archive scipt started.
+INFO: [25-09-26 13:15:02] Backing up from test_1 to test_2/backup_250926_131502.tar.gz.
+INFO: [25-09-26 13:15:02] Backup completed successfully.
+INFO: [25-09-26 13:23:16] Archive scipt started.
+INFO: [25-09-26 13:23:16] Backing up from test_1 to test_2/backup_250926_132316.tar.gz.
+INFO: [25-09-26 13:23:16] Backup completed successfully.
+INFO: [25-09-26 13:27:32] Archive scipt started.
+INFO: [25-09-26 13:27:32] Backing up from test_1 to test_2/backup_250926_132732.tar.gz.
+INFO: [25-09-26 13:27:32] Backup completed successfully.
+INFO: [25-09-26 13:30:21] Archive scipt started.
+ERROR: [25-09-26 13:30:21] Source directory (test_1) does not exist or is not readable. Exiting.
+INFO: [25-09-26 13:32:57] Archive scipt started.
+INFO: [25-09-26 13:32:57] Backing up from test_1 to test_2/backup_250926_133257.tar.gz.
+INFO: [25-09-26 13:32:57] Backup completed successfully.
+INFO: [25-09-26 13:33:18] Archive scipt started.
+ERROR: [25-09-26 13:33:18] Source directory (a) does not exist or is not readable. Exiting.
+INFO: [25-09-26 13:33:30] Archive scipt started.
+ERROR: [25-09-26 13:33:30] Target directory (a) does not exist or could not be created. Exiting.
