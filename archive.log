@@ -7,3 +7,49 @@ ERROR: [25-09-26 13:56:31] Source directory (test_1) does not exist or is not re
 INFO: [25-09-26 13:57:11] Archive scipt started.
 INFO: [25-09-26 13:57:11] Backing up from test_1 to test_2/backup_250926_135711.tar.gz.
 INFO: [25-09-26 13:57:11] Backup completed successfully.
+INFO: [25-09-26 16:09:08] Archive scipt started.
+ERROR: [25-09-26 16:09:08] Source directory (-d) does not exist or is not readable. Exiting.
+INFO: [25-09-26 16:09:57] Archive scipt started.
+ERROR: [25-09-26 16:09:57] Source directory (-d) does not exist or is not readable. Exiting.
+INFO: [25-09-26 16:10:48] Archive scipt started.
+INFO: [25-09-26 16:10:48] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 16:14:05] Archive scipt started.
+INFO: [25-09-26 16:14:05] Backing up from test_1 to test_2/backup_250926_161405.tar.gz.
+INFO: [25-09-26 16:14:05] Backup completed successfully.
+INFO: [25-09-26 16:14:48] Archive scipt started.
+INFO: [25-09-26 16:14:48] Backing up from test_1 to test_2/backup_250926_161448.tar.gz.
+INFO: [25-09-26 16:14:48] Backup completed successfully.
+INFO: [25-09-26 16:21:54] Archive scipt started.
+INFO: [25-09-26 16:21:54] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 16:22:56] Archive scipt started.
+INFO: [25-09-26 16:22:56] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 16:26:43] Archive scipt started.
+INFO: [25-09-26 16:26:43] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 16:37:39] Archive scipt started.
+INFO: [25-09-26 16:37:39] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 16:54:30] Archive script started.
+INFO: [25-09-26 16:54:30] Dry-run enabled. Simulating backup.
+INFO: [25-09-26 16:55:51] Archive script started.
+INFO: [25-09-26 16:55:51] Backing up from test_1 to test_2/backup_250926_165551.tar.gz.
+INFO: [25-09-26 16:55:51] Backup completed successfully.
+INFO: [25-09-26 17:02:22] Archive script started.
+INFO: [25-09-26 17:02:22] Backing up from test_1 to test_2/backup_250926_170222.tar.gz.
+INFO: [25-09-26 17:02:22] Backup completed successfully.
+INFO: [25-09-26 17:07:35] Archive script started.
+INFO: [25-09-26 17:07:35] Backing up from test_1 to test_2/backup_250926_170735.tar.gz.
+INFO: [25-09-26 17:07:35] Backup completed successfully.
+INFO: [25-09-26 17:11:44] Archive script started.
+INFO: [25-09-26 17:11:44] Backing up from test_1 to test_2/backup_250926_171144.tar.gz.
+INFO: [25-09-26 17:11:44] Backup completed successfully.
+INFO: [25-09-26 17:13:49] Archive script started.
+INFO: [25-09-26 17:14:21] Archive script started.
+INFO: [25-09-26 17:17:13] Archive script started.
+INFO: [25-09-26 17:21:24] Archive script started.
+INFO: [25-09-26 17:21:24] Backing up from test_1 to test_2/backup_250926_172124.tar.gz.
+INFO: [25-09-26 17:21:24] Backup completed successfully.
+INFO: [25-09-26 17:23:27] Archive script started.
+INFO: [25-09-26 17:23:27] Backing up from test_1 to test_2/backup_250926_172327.tar.gz.
+INFO: [25-09-26 17:23:27] Backup completed successfully.
+INFO: [25-09-26 17:27:52] Archive script started.
+INFO: [25-09-26 17:27:52] Backing up from test_1 to test_2/backup_250926_172752.tar.gz.
+INFO: [25-09-26 17:27:52] Backup completed successfully.
