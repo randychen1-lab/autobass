@@ -41,7 +41,7 @@ if [[ ! -d $sourceDir ]]; then
     logError "Source directory ($sourceDir) does not exist or is not readable. Exiting.";
     exit 1;
 elif [[ ! -d $targetDir ]]; then logError "Target directory ($targetDir) does not exist or could not be created. Exiting."; exit 1;
-elif $dryrun; then 
+elif $dryrun; then
     logInfo "Dry-run enabled. Simulating backup.";
     echo "Runs:";
     echo "backup=$targetDir/backup_$(date +%y%m%d)_$(date +%H%M%S).tar.gz";
